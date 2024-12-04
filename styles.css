@@ -75,7 +75,7 @@ header
     border-radius: 20px;
     position: absolute;
     right: -10%;
-    top: -30%;
+    top: -35%;
 }
 
 #second-container
@@ -94,7 +94,7 @@ header
     border-radius: 20px;
     position: absolute;
     left: -10%;
-    top: -30%;
+    top: -35%;
 }
 
 .testimonials {
@@ -211,4 +211,19 @@ footer {
     color:white;
     text-align: center;
     font-size: 20px; 
+}
+
+.footer-links a {
+    text-decoration: none;
+    color: white;
+}
+
+.footer-links a:hover {
+    color:gray;
+    
+}
+
+.social-icons i:hover {
+    color:white;
+    
 }
