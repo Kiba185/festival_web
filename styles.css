@@ -1,5 +1,6 @@
 * {
     scroll-behavior: smooth;
+    box-sizing: border-box;
 }
 
 body
@@ -226,4 +227,59 @@ footer {
 .social-icons i:hover {
     color:white;
     
+}
+
+.contact
+
+#contact {
+    text-align: center;
+    font-size: 48px;
+
+}
+
+#contact-form {
+    width: 40%;
+    margin: auto; 
+    text-align: left;
+}
+
+input[type="text"], input[type="email"]
+{
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 8px;
+    margin-top: 8px;
+}
+
+input[type="checkbox"]{
+    width: 20px;
+    height: 20px;
+}
+
+input[type="button"]{
+    width: 100%;
+    padding: 8px;
+    font-size: 20px;
+    margin-top: 8px;
+    margin-bottom: 12px;
+    background-color: rgb(90, 90, 90);
+}
+
+input[type="button"]:hover {
+    background-color: rgb(126, 126, 126);
+}
+
+textarea {
+    resize: none;
+    width: 100%;
+    padding: 8px;
+    height: 100px;
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+
+label {
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
 }
