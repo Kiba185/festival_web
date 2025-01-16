@@ -158,7 +158,7 @@ body
 }
 
 .nav-bar {
-    background-color: black;
+    background-color: rgb(54, 54, 54);
     color: white;
     padding: 10px 0 10px 0;
 }
@@ -166,7 +166,7 @@ body
 .nav-links {
     display: flex;
     list-style: none;
-    font-size: 28px;
+    font-size: 100%;
     justify-content: space-around;
     padding: 0%;
     margin: 0;
@@ -174,7 +174,7 @@ body
 
 .nav-link a {
     text-decoration: none;
-    color: white;
+    color: rgb(212, 212, 212);
 }
 
 .nav-links a:hover {
@@ -183,7 +183,7 @@ body
 
 footer {
     padding: 16px 0 16px 0;
-    background-color: black;
+    background-color: rgb(54, 54, 54);;
 }
 
 .social-icons {
@@ -209,7 +209,7 @@ footer {
 }
 
 .footer-links {
-    color: white;
+    color:rgb(212, 212, 212);
     list-style: none;
     display: flex;
     justify-content: center;
@@ -272,7 +272,9 @@ input[type="button"]{
     font-size: 20px;
     margin-top: 8px;
     margin-bottom: 12px;
-    background-color: rgb(90, 90, 90);
+    background-color: rgb(164, 164, 164);
+    color: rgb(250, 250, 250);
+    border: none;
 }
 
 input[type="button"]:hover {
