@@ -362,27 +362,36 @@ label {
 
 .merch-headline {
     position: relative;
+    left: 5%;
+    font-size: 45px;
+    width: 200px;
 }
 
 .merch-cards {
+    position: relative;
+    top: 10px;
     display: grid;
-    grid-template-columns: 30% 30% 30%;
-    grid-template-rows: 45% 45%;
-    width: 85%;
-    margin: auto;
-    gap: 5%;
+    grid-template-columns: 370px 370px 370px;
+    grid-template-rows: 650px 650px;
+    width: 1310px;
+    margin: auto auto 50px auto;
+    gap: 100px;
 }
 
 .merch-card {
-    background-color: #979797;
-    margin: 10px;
-    height: 600px;
+    background-color: #d8d8d8;
+    margin: 10px 10px 50px 10px;
+    height: 650px;
     position: relative;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
 }
 
 .merch-img {
     width: 100%;
-    height: 45%;
+    height: 47%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
 }
 
 .merch-card-headline {
@@ -391,6 +400,7 @@ label {
     margin: auto 5% auto 5%;
     text-align: center;
     font-size: 170%;
+    top: 50%;
 }
 
 .merch-card-description {
@@ -399,7 +409,7 @@ label {
     margin: auto 10% auto 10%;
     text-align: center;
     font-size: 110%;
-    top: 60%;
+    top: 65%;
 }
 
 .merch-price {
@@ -408,7 +418,7 @@ label {
     margin: auto 10% auto 10%;
     text-align: center;
     font-size: 200%;
-    top: 70%;
+    top: 75%;
 }
 
 .merch-size {
@@ -424,11 +434,11 @@ label {
     width: 30px;
     background-color: #FF0000;
     left: 53%;
-    top: 80%;
+    top: 84.3%;
 }
 
 .merch-quantity {
-    width: 10%;
+    width: 15%;
     margin: 80% 50.5% auto 14.5%;
     font-size: 165%;
     position: absolute;
@@ -437,4 +447,9 @@ label {
 
 .merch-buy-btn {
     position: absolute;
+    width: 55%;
+    font-size: 165%;
+    top: 90.69%;
+    left: 32%;
+    font-weight: bold;
 }
