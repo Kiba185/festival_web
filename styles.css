@@ -69,7 +69,7 @@ body
 #first-container
 {
     background-color: rgb(243, 243, 243);
-    width: 700px;
+    max-width: 700px;
     margin: 110px auto ;
     padding: 30px 24px;
     border-radius: 20px;
@@ -93,7 +93,7 @@ body
 #second-container
 {
     background-color: rgb(243, 243, 243);
-    width: 700px;
+    max-width: 700px;
     margin: 150px auto ;
     padding: 30px 24px;
     border-radius: 20px;
@@ -138,21 +138,33 @@ body
     padding: 32px 16px 32px 16px;
     border: none;
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+    position: relative;
 }
 
 .testimonials-card p {
     font-size: 16px;
     line-height: 1.5;
+    margin-bottom: 100px;
 }
 
 .testimonials-card h3 {
     font-size: 24px;
+    position: absolute;
+    bottom: 0;
+    margin-bottom: 40px;
+    transform: translate(-50%, -50%);
+    left: 50%;
 }
 
 .testimonials-card h4 {
     font-size: 20px;
     color:rgb(138, 138, 138);
     margin: 0 auto;
+    position: absolute;
+    bottom: 0;
+    margin-bottom: 10px;
+    transform: translate(-50%, -50%);
+    left: 50%;
 }
 
 .testimonials-card img {
@@ -167,6 +179,10 @@ body
     background-color: rgb(54, 54, 54);
     color: white;
     padding: 6px 0 6px 0;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 2;
 }
 
 .nav-links {
@@ -496,3 +512,4 @@ label {
     border:none;
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
 }
+

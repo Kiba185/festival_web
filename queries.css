@@ -1,0 +1,48 @@
+@media only screen and (max-width: 1635px) {
+    .testimonials-card{
+        width: 65%;
+        gap: 20%;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+}
+
+@media only screen and (max-width: 1300px) {
+
+}
+
+@media only screen and (max-width: 950px) {
+
+    #first-container {
+        margin-left: 20px;
+        margin-right: 75px;
+        top: 50px;
+    }
+
+    #first-container img {
+        top: -110px;
+    }
+    
+
+    #second-container {
+        margin-left: 75px;
+        margin-right: 20px;
+        top: 110px;
+    }
+
+    #second-container img {
+        top: -110px;
+    }
+}
+
+@media only screen and (max-width:750px) {
+   
+    .nav-links {
+        visibility: hidden;
+    }
+
+    .nav-bar {
+        height: 50px;
+    }
+}
+
