@@ -129,6 +129,10 @@ body
     display: flex;
     justify-content: space-between;
     margin: auto auto 100px auto;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100%;
 }
 
 .testimonials-card {
@@ -266,11 +270,13 @@ footer {
 #contact {
     text-align: center;
     font-size: 48px;
+    left: 50%;
+    transform: translateX(-50%);
 
 }
 
 #contact-form {
-    width: 40%;
+    max-width: 350px;
     text-align: left;
     margin: auto auto 20px auto;
 }
