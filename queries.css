@@ -9,6 +9,18 @@
 
 @media only screen and (max-width: 1300px) {
 
+    .testimonials-cards {
+        width: 100%;
+    }
+
+    .testimonials-card {
+        width: 33%;
+    }
+
+    .testimonials {
+        width: 80%;
+    }
+
 }
 
 @media only screen and (max-width: 950px) {
@@ -32,6 +44,18 @@
 
     #second-container img {
         top: -110px;
+    }
+
+    .testimonials-cards {
+        width: 100%;
+    }
+
+    .testimonials-card {
+        width: 33%;
+    }
+
+    .testimonials {
+        width: 100%;
     }
 
     
@@ -59,5 +83,9 @@
         width: 100%;
         margin-bottom: 20px;
     }
+    .testimonials {
+        width: 65%;
+    }
+
 }
 
