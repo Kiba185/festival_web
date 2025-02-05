@@ -40,6 +40,7 @@ body
     border-radius: 16px;
     padding: 0 50px 0 50px;
     text-wrap: nowrap;
+    max-width: 800px;
 }
 
 .intro-container h1
@@ -149,6 +150,7 @@ body
     font-size: 16px;
     line-height: 1.5;
     margin-bottom: 100px;
+    min-height: 120px;
 }
 
 .testimonials-card h3 {
@@ -158,6 +160,7 @@ body
     margin-bottom: 40px;
     transform: translate(-50%, -50%);
     left: 50%;
+    text-wrap: nowrap;
 }
 
 .testimonials-card h4 {
