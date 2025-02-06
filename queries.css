@@ -21,6 +21,12 @@
         width: 80%;
     }
 
+    .merch-cards {
+        grid-template-columns: 370px 370px;
+        grid-template-rows: 650px 650px 650px;
+        width: 840px;
+    }
+
 }
 
 @media only screen and (max-width: 950px) {
@@ -105,6 +111,12 @@
     
     .testimonials-card p {
         min-height: none;
+    }
+
+    .merch-cards {
+        grid-template-columns: 370px ;
+        grid-template-rows: 650px 650px 650px 650px 650px 650px;
+        width: 370px;
     }
 
 }

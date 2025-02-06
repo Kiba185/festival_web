@@ -412,9 +412,9 @@ label {
     display: grid;
     grid-template-columns: 370px 370px 370px;
     grid-template-rows: 650px 650px;
-    width: 1310px;
     margin: auto auto 50px auto;
     gap: 100px;
+    width: 1310px;
 }
 
 .merch-card {
