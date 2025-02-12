@@ -41,7 +41,6 @@
         top: -110px;
     }
     
-
     #second-container {
         margin-left: 75px;
         margin-right: 20px;
@@ -49,6 +48,16 @@
     }
 
     #second-container img {
+        top: -110px;
+    }
+
+    #third-container {
+        margin-left: 20px;
+        margin-right: 75px;
+        top: 170px;
+    }
+
+    #third-container img {
         top: -110px;
     }
 
